@@ -1,7 +1,13 @@
-# def dynamic():
-  # pass
-def check_3Digits(number):
-  return number in range(100, 1000)
+def check_3Digits(list1):
+  # return number in range(100, 1000)
+  for n in list1:
+    if n is range(100, 1000):
+      return True
+    else:
+      pass
+  
+
+  
 ########################################################################################################################
 # Dynamic Functions Practice #1
 # Create a function (all_positives) that returns True if all the values in a list are positive, and False if at least one of the values is negative. Create a list named numbers with positive and negative values.
